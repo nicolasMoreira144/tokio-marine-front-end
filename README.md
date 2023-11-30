@@ -27,3 +27,20 @@ npm run dev
 ```sh
 npm run build
 ```
+
+
+Exemplo preenchimento campos tela :
+
+Conta destino: 0278-4 
+Conta Origem: 0245-7
+Data agendamento: 2023-08-12
+Data transferência: 2023-04-05 
+Dia: 25 
+Valor: 100
+
+
+observação: 
+
+A api esta configurada para receber requisições do host:  http://localhost:5173/
+Será necessário subir nessa porta ou alterar no controller do projeto back end
+localizado na classe TransferenciaController.java na linha 34 e 61
