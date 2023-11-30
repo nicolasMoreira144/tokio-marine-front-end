@@ -21,15 +21,15 @@
           <label>Conta destino</label>
           <input type="text" placeholder="Conta destino" v-model="transferencia.contaDestino">
           <label>Conta origem</label>
-          <input type="number" placeholder="Conta origem" v-model="transferencia.contaOrigem">
+          <input type="text" placeholder="Conta origem" v-model="transferencia.contaOrigem">
           <label>Data agendamento</label>
           <input type="text" placeholder="yyyy-mm-dd" v-model="transferencia.dataAgendamento">
           <label>Data transferência</label>
           <input type="text" placeholder="yyyy-mm-dd" v-model="transferencia.dataTransferencia">
           <label>Dia</label>
-          <input type="text" placeholder="Dia" v-model="transferencia.dia">
+          <input type="number" placeholder="Dia" v-model="transferencia.dia">
           <label>Valor</label>
-          <input type="text" placeholder="Valor" v-model="transferencia.valor">
+          <input type="number" placeholder="Valor" v-model="transferencia.valor">
           <button class="waves-effect waves-light btn-small">Salvar<i class="material-icons left">save</i></button>
 
       </form>
@@ -84,6 +84,7 @@ export default{
         contaOrigem: '',
         dataAgendamento: '',
         dataTransferencia: '',
+        dia: '',
         valor: '' 
       },
       
