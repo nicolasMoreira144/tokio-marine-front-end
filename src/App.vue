@@ -22,8 +22,6 @@
           <input type="text" placeholder="Conta destino" v-model="transferencia.contaDestino">
           <label>Conta origem</label>
           <input type="text" placeholder="Conta origem" v-model="transferencia.contaOrigem">
-          <label>Data agendamento</label>
-          <input type="text" placeholder="yyyy-mm-dd" v-model="transferencia.dataAgendamento">
           <label>Data transferência</label>
           <input type="text" placeholder="yyyy-mm-dd" v-model="transferencia.dataTransferencia">
           <label>Dia</label>

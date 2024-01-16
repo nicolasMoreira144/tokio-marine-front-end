@@ -33,7 +33,6 @@ Exemplo preenchimento campos tela :
 
 Conta destino: 0278-4 
 Conta Origem: 0245-7
-Data agendamento: 2023-08-12
 Data transferência: 2023-04-05 
 Dia: 25 
 Valor: 100
