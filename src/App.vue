@@ -23,7 +23,7 @@
           <label>Conta origem</label>
           <input type="text" placeholder="Conta origem" v-model="transferencia.contaOrigem">
           <label>Data transferência</label>
-          <input type="text" placeholder="yyyy-mm-dd" v-model="transferencia.dataTransferencia">
+          <input type="text" placeholder="dd-mm-yyyy" v-model="transferencia.dataTransferencia">
           <label>Dia</label>
           <input type="number" placeholder="Dia" v-model="transferencia.dia">
           <label>Valor</label>
