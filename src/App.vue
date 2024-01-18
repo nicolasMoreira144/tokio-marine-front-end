@@ -109,6 +109,7 @@ export default{
       Transferencia.salvar(this.transferencia).then(resposta => {
         this.transferencia = {}
         alert('Agendamento realizado com sucesso!')
+        this.errors = []
         this.listar()
       }).catch(e => {
         console.log(e.response)
